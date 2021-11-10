@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+  .w3-myfont {
+  font-family: "Comic Sans MS", sans-serif;
+}
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://i.pinimg.com/564x/6c/6b/ee/6c6beeb9bd37d0c80596c910bd31c5e7.jpg);
+  min-height: 90%; 
+}
+h5 {
+  font-family: cursive;
+  font-size: 90px;
+  color: black;
+  text-align: center;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">NIVELES</a>
+    <a href="#about" class="w3-bar-item w3-button">ACERCA</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTACTENOS</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">APRENDER Y DIVIERTETE</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">ABYSS<br>viewt</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">NIVELES</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">NIVELES</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-purple">fácil</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-purple">intermedio</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-purple">dificil</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+        <h1><b><a href="index.html">¡EMPIEZA YA!</a></b></h1>
+        <hr>
+      </div>
+  
+      <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
+          <h1><b><a href="index2.html">¡Estas listo!</a></b></h1>
+          <hr>
+        </div>
+     
+        
+  
+  
+      <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
+          <h1><b><a href="index3.html">¡Comienza ya!</a></b></h1>
+          <hr>
+        </div>
+    </div>
+  </div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-light-blue w3-xlarge" id="about">
+  <div class="w3-content">
+    <h5> ABYSS VIEWT</h5>
+    <div class="w3-container w3-myfont">
+     <p class="w3-xlarge"> 
+       El proyecto Abyss Viewt es una aplicación web en HTML, va dirigido a los
+        estudiantes de la institución educativa Santa Elena con el fin de lograr que
+        pasen su tiempo aprendiendo sobre temas de su cultura de una forma divertida
+        e interesante, generando así una solución eficaz creando estrategias para
+        fortalecer el conocimiento, promover la cultura para impulsar a una mayor
+        cohesión, y un pensamiento crítico más amplio, la aplicación va a contar con
+        una serie de preguntas que se va a realizar a los usuarios estos van a elegir
+        la respuesta que creen correcta y al finalizar podrán ver las respuestas
+        correctas<p>
+        </div>
+    <p><strong>Abbys Viewt</strong> cultura<img src="/img/logo.jpg" style="width: 150px;" class="w3-center w3-right" alt="Chef"></p>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">CONTACTENOS</h1>
+    <p>si tienes alguna duda dejanos tu mensaje o comunicate por medio de nuestras redes sociales</p>
+    <p class="w3-xxlarge"><strong>escribe tu duda</strong> envianos tu mensaje y nos contactaremos en breve:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="NOMBRE" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="MENSAJE" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">ENVIA TU MENSAJE</button></p>
+    </form>
+  </div>
+</div>
+<!----- cerrar cesion --->
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-purple", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-purple";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

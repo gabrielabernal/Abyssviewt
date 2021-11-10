@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<html class="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inicio</title>
+</head>
+<body bgcolor="#D8CEF6">
+<header>
+<div align="center">
+<h3>LISTADO DE USUARIOS</h3>
+</header>
+<section id = "seccion">
+<article>
+</div>
+<div align="center">
+<table border="3" width="1000" bordercolor="#120A2A" style="font-size:12px" bgcolor="#FFFFFF"> <tr>
+<td><h3>REGISTRO</h3></td>
+<td><h3>USUARIO</h3></td>
+<td><h3>NOMBRE</h3></td>
+<td><h3>APELLIDO</h3></td>
+<td><h3>CORREO</h3></td>
+<td><h3>CLAVE</h3></td>
+<td><h3>FECHA NACIMIENTO</h3></td>
+<td><h3>GENERO</h3></td>
+</tr>
+<?php do { ?>
+<tr>
+<td ><?php echo $row_Recordset1['autonume']; ?></td>
+<td ><?php echo $row_Recordset1['usuario']; ?></td>
+<td ><?php echo $row_Recordset1['nombre']; ?></td>
+<td ><?php echo $row_Recordset1['apellido']; ?></td>
+<td ><?php echo $row_Recordset1['correo']; ?></td>
+<td ><?php echo $row_Recordset1['clave']; ?></td>
+<td ><?php echo $row_Recordset1['fechanac']; ?></td>
+<td ><?php echo $row_Recordset1['genero']; ?></td>
+</tr>
+<?php
+} while ($row_Recordset1 = mysqli_fetch_assoc($Recordset1)); ?>
+</table>
+<hr/>
+<a href="admon.php" ><img src="img/enviar.jpg" width="100px"></a>
+</div>
+<hr/>
+</article>
+<form action="borruser.php" method="post" name="formal">
+<label>REGISTRO A BORRAR<input type="number" name="q" size="10" id="numb" /></label>
+<input type="submit" value="BORRAR REGISTRO" />
+</form>
+</section>
+</body>
+</html>
+<?php
+mysqli_free_result($Recordset1);
+?>

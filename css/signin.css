@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2? family = Lato: wght @ 300; 400; 700 & display = swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto Condensed', sans-serif;;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, #9B71C7,#6968F8);
+    padding: 20px;
+     
+}
+
+.content-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.content-form{
+    width: 80%;
+    padding: 50px;
+    background: #f7f7f7;
+    border-radius: 50px;
+    position: relative;
+    left: 100px;
+    
+}
+
+.logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.title{
+   text-align: center;
+   margin-top: 20px;
+   font-weight: 300;
+   color: #7a7a7a;
+}
+
+.content-gen{
+   text-align: left;
+   margin-top: 20px;
+   font-weight: 300;
+   color: #7a7a7a;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"]{
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    color: slategray;
+    font-size: 16px;
+}
+
+input[type="radio"]{
+    width: 100%;
+    height: 15px;
+    background: rgba(0, 0, 0, 0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    color: slategray;
+    font-size: 16px;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    border: 0px;
+    background: linear-gradient(90deg, #9B71C7,#6968F8);
+    border-radius: 50px;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(90deg, #6968F8, #9B71C7);
+
+}
+
+input[type="button"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    border: 0px;
+    background: linear-gradient(90deg, #9B71C7,#6968F8);
+    border-radius: 3%;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="button"]:hover{
+    background: linear-gradient(90deg, #6968F8, #9B71C7);
+
+}
+
+.text-footer{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    color: #7a7a7a;
+    font-weight: 500;
+}
+
+.text-footer a{
+    color: rgb(12, 69, 83);
+    font-weight: 500;
+}
+
+.enlace{
+    background: #000000;
+    color: azure;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+
+}
