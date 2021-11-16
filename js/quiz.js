@@ -12,15 +12,15 @@ let quiz = [
     {
         question: "¿De qué región de Colombia se originó el ajiaco?",
         option: [
-            "región Amazónica.",
-            "la costa del Pacífico",
-            "la región de los Llanos Orientales",
-            "la región Andina",
+            "Región Amazónica.",
+            "La costa del Pacífico",
+            "La región de los Llanos Orientales",
+            "La región Andina",
         ],
         answer: 4,
     },
     {
-        question: "¿Que ave tiene en su pulmaje posee los colores de la bandera de colombia?",
+        question: "¿Que ave posee en su plumaje los colores de la bandera de Colombia?",
         option: [
             "Ave del paraiso",
             "Gucamaya",
@@ -31,7 +31,7 @@ let quiz = [
     },
     {
         question:
-            "¿En que cuidad esta ubicado el edificio mas grande de colombia?",
+            "¿En que ciudad esta ubicado el edificio mas grande de Colombia?",
         option: [
             "Bogota",
             "Medellin",
@@ -42,7 +42,7 @@ let quiz = [
     },
     {
         question:
-            "¿En que cuidad anualmente se celebra la feria de flores?",
+            "¿En que ciudad anualmente se celebra la feria de flores?",
         option: [
             "Santa Marta ",
             "Cauca",
@@ -52,12 +52,12 @@ let quiz = [
         answer: 4,
     },
     {
-        question: "¿Cuál es la flor nacional de colombia?",
+        question: "¿Cuál es la flor nacional de Colombia?",
         option: ["Margarita", "Violeta", "Orquidia", "Rosa"],
         answer: 3,
     },
     {
-        question: "¿En que pueblo se celebra el fiesta del maiz?",
+        question: "¿En que pueblo se celebra la fiesta del maiz?",
         option: [
             "Florida blanca",
             "Sonson",
@@ -68,7 +68,7 @@ let quiz = [
     },
     {
         question:
-            "¿En que cuidad de colombia se encuentra la cuidad perdida?",
+            "¿En que cuidad de Colombia se encuentra la cuidad perdida?",
         option: ["Santa Marta", "Cartagena", "Barranquilla", "Pereira"],
         answer: 1,
     },

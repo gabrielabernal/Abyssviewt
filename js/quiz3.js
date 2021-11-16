@@ -1,21 +1,21 @@
 let quiz = [
     {
-        question: "¿En que capital de colombia se celebra el festival de negros y blancos?",
+        question: "¿En que capital de Colombia se celebra el festival de negros y blancos?",
         option: ["Pasto", "Neiva", "Quibdo", "villavicencio",],
         answer: 1,
     },
     {
-        question: "¿Cual es ave nacional de colombia?",
+        question: "¿Cual es ave nacional de Colombia?",
         option: ["Cuervo", "Paloma", "Condor", "Colibri",],
         answer: 3,
     },
     {
-        question: "¿Cual es pico mas alto de colmbia?",
+        question: "¿Cual es pico mas alto de Colombia?",
         option: ["Nevodo del Tolima", "Cristobal Colon", "Ritacuba Blanco", "Nevado del Huila", ],
         answer: 2,
     },
     {
-        question: "¿Cual es el departamento mas grande de colombia?",
+        question: "¿Cual es el departamento mas grande de Colombia?",
         option: [
             "Guainia",
             "Vaupez",
@@ -25,7 +25,7 @@ let quiz = [
         answer: 3,
     },
     {
-        question: "¿cuales son los ritmos musicales colombianos  mas conocidos ?",
+        question: "¿Cuales son los ritmos musicales Colombianos  mas conocidos ?",
         option: [
             "Tango y Salsa",
             "Joropo y Merengue",
@@ -40,18 +40,18 @@ let quiz = [
         answer: 2,
     },
     {
-        question: "¿Como se le llama a  la muerte de cada especie?",
+        question: "¿Cuál es el departamento más poblado de Colombia?",
         option: [
-            "Extincion",
-            "Desaparicion",
-            "Acambamiento",
-            "Muerte",
+            "Cundinamarca",
+            "Antioquia",
+            "Amazonas",
+            "Magdalena",
         ],
         answer:1,
     },
     {
-        question: "Como se llama la película de terror del payaso asesino?",
-        option: ["Bird Box", "IT", "Sweetheart", "Krampus"],
+        question: "¿Cuál es el denominado “pueblito más lindo de Colombia”, designado monumento nacional?",
+        option: ["Guatavita", "El pueblo Barichara", "Jardin", "Rincon del mar"],
         answer: 2,
     },
     {
@@ -60,7 +60,7 @@ let quiz = [
         answer: 3,
     },
     {
-        question: "¿cual es plato tipico de Antioquia?",
+        question: "¿Cual es plato tipico de Antioquia?",
         option: ["Tamales", "Sancocho", "Changua", "Bandeja paisa"],
         answer: 4,
     },

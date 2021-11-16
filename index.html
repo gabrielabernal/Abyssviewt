@@ -2,7 +2,7 @@
 <html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-sacale=1.0, minimum-scale=1.0" >
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
 <style>
@@ -31,10 +31,10 @@ h5 {
 <div class="w3-top w3-hide-small">
   <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
     <a href="#" class="w3-bar-item w3-button">HOME</a>
-    <a href="#menu" class="w3-bar-item w3-button">NIVELES</a>
+    <a href="#menu" class="w3-bar-item w3-button">SELECCIONA EL MODO DE JUEGO</a>
     <a href="#about" class="w3-bar-item w3-button">ACERCA</a>
-    <a href="#myMap" class="w3-bar-item w3-button">CONTACTENOS</a>
-  </div>
+</div>
+
 </div>
   
 <!-- Header with image -->
@@ -45,7 +45,7 @@ h5 {
   <div class="w3-display-middle w3-center">
     <span class="w3-text-white w3-hide-small" style="font-size:100px">ABYSS<br>viewt</span>
     <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>Abyss<br>Viewt</b></span>
-    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">NIVELES</a></p>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Tipos de Juegos</a></p>
   </div>
 </header>
 
@@ -53,36 +53,26 @@ h5 {
 <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
   <div class="w3-content">
   
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">NIVELES</h1>
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Tipos de Juegos</h1>
     <div class="w3-row w3-center w3-border w3-border-dark-grey">
       <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-purple">fácil</div>
+      <div class="w3-col s4 tablink w3-padding-large w3-hover-purple">¡juego trivia!</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-purple">intermedio</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-purple">dificil</div>
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-purple">¡Contesta las preguntas!</div>
       </a>
     </div>
 
     <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
-        <h1><b><a href="index1.html">¡EMPIEZA YA!</a></b></h1>
+        <h1><b><a href="juegotrivia.html">¡JUEGO TRIVIA!</a></b></h1>
         <hr>
       </div>
   
       <div id="Pasta" class="w3-container menu w3-padding-32 w3-white">
-          <h1><b><a href="index2.html">¡Estas listo!</a></b></h1>
+          <h1><b><a href="juegopre.html">¡ESCRIBE TUS RESPUESTAS!</a></b></h1>
           <hr>
         </div>
      
-        
-  
-  
-      <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
-          <h1><b><a href="index3.html">¡Comienza ya!</a></b></h1>
-          <hr>
-        </div>
     </div>
   </div>
 
@@ -112,18 +102,7 @@ h5 {
 <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
 
 <!-- Contact -->
-<div class="w3-container w3-padding-64 w3-blue w3-grayscale-min w3-xlarge">
-  <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">CONTACTENOS</h1>
-    <p>si tienes alguna duda dejanos tu mensaje o comunicate por medio de nuestras redes sociales</p>
-    <p class="w3-xxlarge"><strong>escribe tu duda</strong> envianos tu mensaje y nos contactaremos en breve:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="NOMBRE" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="MENSAJE" required name="Message"></p>
-      <p><button class="w3-button w3-light-grey w3-block" type="submit">ENVIA TU MENSAJE</button></p>
-    </form>
-  </div>
-</div>
+
 <!----- cerrar cesion --->
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">

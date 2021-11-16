@@ -1,22 +1,22 @@
 let quiz = [
     {
      question:
-            "¿Cuál fue la primera película de Disney",
-        option: ["La sirenita", "Cenicienta", "Blanca nieves", "Mulan"],
+            "¿Cual es el diario de mayor circulacion en Colombia?",
+        option: ["El espectador", "El colombiano", "El tiempo", "El mundo"],
         answer: 3,
     },
     {
-        question: "¿Cual es el órgano más grande del ser humano?",
+        question: "A que municipio pertenecen las islas Corales del Rosario",
         option: [
-            "El higado",
-            "Corazon",
-            "La piel",
-            "Pulmones",
+            "Barranquilla ",
+            "Manizales",
+            "Cartagena",
+            "Santa marta",
         ],
         answer: 3,
     },
     {
-        question: "¿en que año fue invita la seleccion colombia la mundial ?",
+        question: "¿En que año fue invita la seleccion Colombia la mundial ?",
         option: [
             "2014",
             "1962",
@@ -26,7 +26,7 @@ let quiz = [
         answer: 2,
     },
     {
-        question: "¿El insecto que se come en la region de santander es ?",
+        question: "¿El insecto que se come en la region de Santander es ?",
         option: [
             "La cucaracha",
             "El grillo",
@@ -36,27 +36,27 @@ let quiz = [
         answer: 3,
     },
     {
-        question: "¿Cuántas notas musicales existen?",
+        question: "Cual es el grupo indigena mas numroso de Colombia?",
         option: [
-            "7",
-            "12",
-            "20",
-            "15",
+            "la etnia yanacona",
+            "la etnia wayuu",
+            "la etnia emberá chami",
+            "la etnia arhuaco",
         ],
         answer: 2,
     },
     {
-        question: "¿Que significan los 5 aros de los juegos olimpico?",
+        question: "¿En qué municipio se encuentra la catarata del Salto del Tequendama?",
         option: [
-            "Los planetas",
-            "Los colores",
-            "Los continentes",
-            "Los equipos",
+            "Cúcuta",
+            "Tunja",
+            "Soacha",
+            "Pasto",
         ],
         answer: 3,
     },
     {
-        question: "¿En que departamento esta la piedra mas grande colmbia?",
+        question: "¿En que departamento esta la piedra mas grande Colombia?",
         option: [
             "Antioquia",
             "Meta",

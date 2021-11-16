@@ -1,0 +1,49 @@
+<html>
+<head>
+
+<title>primer nivel!</title>
+<link rel="stylesheet" href="css/stylej2.css" />
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "js/main.js"></script>
+
+</head>
+
+
+<body background="img/fondo27.jpeg">
+   <div class="contenedor">
+
+    <h1>Responde las preguntas!</h1>
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">¿Este aeropuerto de que ciudad es?</p>
+<img src="img/j21.jpg " width="500px" height="300px" alt="quiz logo" class="tilt" />
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">¿Cómo se llama esta estructura?</p>
+<img src="img/j22.jpg " width="500px" height="300px" alt="quiz logo" class="tilt" />
+<input id = "textbox" type = "text" name = "question2">
+
+<p class = "questions">¿A que cultura precolombina se atribujen estas figuras?</p>
+<img src="img/j23.jpg " width="500px" height="300px" alt="quiz logo" class="tilt" />
+<input id = "textbox" type = "text" name = "question3">
+
+<div class="button">
+
+<input id = "button" type = "button" value = "Finalizar" onclick = "check();">
+</div>
+</form>
+</div>
+
+
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    
+    </div>
+    </div>
+</body>
+</html>
+
+
